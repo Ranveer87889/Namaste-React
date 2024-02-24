@@ -4,7 +4,10 @@
   "description": "ranveer kumar",
   
   "scripts": {
+    "start": "parcel index.html",
+    "build": "prcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
 }
